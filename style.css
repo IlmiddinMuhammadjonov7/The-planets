@@ -1,0 +1,168 @@
+/* Navbar */
+
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@700&family=League+Spartan:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Antonio&family=Heebo:wght@700&family=League+Spartan:wght@600&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Spartan');
+* {
+  margin: 0;
+  padding: 0;
+}
+.planets {
+  background-color: #070724;
+  background-image: url("./pages/Group\ 6.svg");
+  color: white;
+  height: 1024px;
+}
+.nav {
+  display: flex;
+  flex-shrink: wrap reverse;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(197, 194, 194);
+  padding: 0px 40px;
+  box-sizing: border-box;
+}
+.nav .logo {
+  font-family: Antonio;
+  font-size: 28px;
+  letter-spacing: -1px;
+}
+.nav-list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  margin: 0 11px;
+  font-family: "Heebo", sans-serif;
+  font-family: "League Spartan", sans-serif;
+  font-size: 11px;
+}
+
+.nav-list li {
+  margin: 33px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.nav-list li:last-child {
+  margin-right: 0;
+}
+.nav-list li a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Navbar */
+
+.header {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  margin: auto;
+  margin-top: 200px;
+}
+
+.header .img{
+  margin-left: 350px;
+  background-image: url('./1.svg');
+  width: 290px;
+  height: 290px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.header .header-list {
+  width: 350px;
+  margin-left: 120px;
+}
+
+.header .header-list h1 {
+  font-family: Antonio;
+  font-size: 80px;
+  font-weight: 200;
+  margin-bottom: 30px;
+}
+
+.header .header-list p {
+  font-family: Spartan;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  color: #c5c4c4;
+}
+
+.header .header-btn{
+  display: flex;
+  flex-direction: column;
+}
+.header .header-list-item{
+  margin-top: 17px;
+  margin-bottom: 34px;
+}
+
+.header .header-list-item span {
+  color: rgb(148, 148, 148);
+}
+
+.header .header-list .header-btn button{
+  background: none;
+  border: 1px solid rgb(148, 148, 148);
+  color: white;
+  text-align: left;
+  padding: 14px 28px;
+  font-family: Spartan;
+  font-size: 12px;
+  letter-spacing: 2.571px;
+  text-transform: uppercase;
+  margin: 10px 0px;
+}
+.header .header-list .header-btn button span{
+  color: rgb(148, 148, 148);
+  margin-right: 25px;
+  
+}
+
+.header .header-list .header-btn .active{
+  background-color: #419EBB;
+  border: none;
+}
+.header .header-list .header-btn button:hover:not(.active){
+  cursor: pointer;
+  background-color: #989797;
+  transition: 0.6s;
+}
+.footer{
+  text-align: center;
+  display: grid;
+  margin-top: 60px;
+  grid-template-columns: 25% 25% 25% 25%;
+  padding: 0px 272px;
+}
+.footer div{
+  margin: 0px 15px;
+  border: 1px solid #989797;
+  padding: 20px;
+}
+.footer div p{
+  color: #989797;
+  font-family: Spartan;
+  font-size: 11px;
+}
+.footer div h1{
+  font-family: Antonio;
+  font-weight: 400;
+  letter-spacing: -1.5px;
+  font-size: 40px;
+}
+.img2{
+  margin-left: 350px;
+  background-image: url('./1.svg');
+  width: 290px;
+  height: 290px;
+  text-align: center;
+}
+
+.img2 img{
+  width: 170px;
+  margin-top: 230px;
+
+}
